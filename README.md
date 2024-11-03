@@ -6,6 +6,7 @@
 
 ## Link do Projeto
 
+https://thiagosousadevjs.github.io/Cafeteria-Coffe-House-Manhattan/
  
 ## Principais Funcionalidades
 - Informações sobre os tipos de café
