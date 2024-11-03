@@ -1,0 +1,328 @@
+* {
+    margin: 0;  
+    padding:  0;
+    box-sizing: border-box;
+    
+}
+
+.topo {
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo img {
+    width: 90px;
+    height: 90px;
+    left: 15%;
+    position: relative;
+    
+}
+
+.topo div {
+    right: 10%;
+    top: 35%;
+    position: absolute;
+    
+}
+
+.topo a {
+    text-decoration: none;
+    color: #c4a47c;
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/parallax-imagem1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.banner h1 {
+    top: 60%;
+    right: 0;
+    left: 15%;
+    color: #fff;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    position: absolute;
+    
+}
+
+.secao-img1 {
+    background-image: url("./img/parallax-imagem1.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.secao-img1 h1 {
+    color: #fff;
+    top: 45%;
+    right: 0;
+    left: 15%;
+    position: absolute;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Fraunces", sans-serif;
+
+}
+
+.secao-img1,
+.secao-img2,
+.secao-img3,
+.secao-img4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.secao-texto h2{
+    font-family: "oswald";
+    font-size: 18px;
+    color: #c4a47c;
+    text-align: center;
+}
+.secao-texto p {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 20px;
+    font-family: "lato";
+    font-size: 16px;
+    color: #666;
+}
+
+.secao-texto {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.secao-img2, .secao-img3{
+    height: 50vh;
+    
+}
+
+.secao-img2 h3, .secao-img3 h3{
+    position: absolute;
+    top: 45%;
+    width: 500px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.secao-img2 {
+    background-image: url("./img/parallax-imagem2.jpg");
+    
+    
+}
+
+.secao-img3 {
+    background-image: url("./img/parallax-imagem3.jpg");
+}
+
+.secao-img4 {
+    background-image: url("./img/parallax-imagem4.png");
+    height: 160vh;
+    
+}
+
+.secao-img4 h2{
+    width: 500px;
+    padding: 10px;
+    top: 10%;
+    position: absolute;
+    background-color: #604829;
+    color: #fff;
+    left: 30%;
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+
+.contato {
+    width: 500px;
+    padding: 10px;
+    bottom: 4%;
+    position: absolute;
+    left: 30%;
+    background-color: #604829;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.secao-img4 iframe {
+    width: 1024px;
+    height: 450px;
+    top: 23%;
+    position: absolute;
+    left: 12%;
+}
+
+
+
+.secao-img2 h3, .secao-img3 h3 {
+    background-color: #604829;;
+    padding: 0;
+    right: 500px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+    font-family: "Fraunces";
+    font-style: italic;
+    font-size: 24px;
+}
+
+
+.secao-img3 h3{
+    font-family: "Fraunces";
+    font-size: 24px;
+    
+}
+
+.secao-img4 p{
+    font-family: "oswald";
+    font-size: 24px;
+}
+
+.secao-img4 h2 {
+    font-family: "oswald";
+    font-size: 16px;
+}
+
+.secao-lista {
+    height: 85vh;
+    background-image: url("./img/cafeteria.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.secao-lista h2 {
+    font-family: "Oswald";
+    font-size: 18px;
+    top: 20%;
+    left: 40%;
+    color: #fff;
+    letter-spacing: 5px;
+    
+}
+
+
+.secao-lista h3 {
+    font-family: "Oswlad";
+    font-size: 16px;
+}
+
+.secao-lista ul {
+    width: 1000px;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    
+
+}
+
+.secao-lista li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+.secao-lista li div {
+    width: 70%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 50%;
+    background-color: #acacac;
+
+}
+
+.secao-lista li p {
+    right: 0;
+    top: 0;
+}
+
+.secao-lista span {
+    font-weight: bold;
+    color: #c4a47c;
+}
+
+.secao-texto {
+    padding: 80px 80px;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+    background-color: #fff;
+}
+
+.secao-rodape {
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}   
+
+.secao-rodape p {
+    font-family: "Lato";
+    font-size: 16px;
+    top: 30%;
+    left: 30%;
+    padding: 6px 0;
+}
+
+
+.secao-rodape span {
+    font-weight: bold;
+    color: #c4a47c;
+    
+}
+
+.secao-rodape img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 33%;
+    top: 26%;
+}
+
+.secao-rodape a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 70px;
+    background-color: #604829;
+    text-align: center;
+    
+
+    
+}
+
+.secao-rodape a img {
+    width: 30px;
+    height: 30px;
+    left: 10px;   
+    
+} 
+
+
+
